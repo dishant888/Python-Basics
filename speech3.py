@@ -12,4 +12,7 @@ def speak(text):
     engine.runAndWait()
 
 roll = int(input('Enter roll no: '))
-speak(f"Answered by {students[roll-1]}")
+try:
+    speak(f"Answered by {students[roll-1]}")
+except Exception as e:
+    speak(e)
