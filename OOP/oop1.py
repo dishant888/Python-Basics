@@ -125,6 +125,7 @@
 # Static Method
 
 class Employee:
+
     numOfLeaves = 8 # class variable (shared by all instances of a class)
 
     def put(self,name,age,salary): # instance method
@@ -153,5 +154,6 @@ e1.put('Rajesh',35,40000)
 e1.numOfLeaves = 12
 e1.get()
 print('Employee Class leaves is ',Employee.getLeaves())
-Employee.greet() # greet works for both class and object
-e1.greet()
+Employee.greet()
+
+#------------------------------------------------------------------------
