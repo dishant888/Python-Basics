@@ -47,7 +47,6 @@ def voiceCommand():
             return 'None'
         return query
 
-
 i = 0
 choice = 'next news'
 while choice != 'exit':
